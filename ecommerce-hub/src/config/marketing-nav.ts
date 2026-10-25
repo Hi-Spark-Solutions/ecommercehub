@@ -220,6 +220,13 @@ export const solutionTools = {
       href: "/solutions/commerce-operations/qr-code-generator",
       icon: "qr-code",
     },
+    {
+      title: "Invoice Generator",
+      description:
+        "Create professional invoices with line items, taxes, discounts, and PDF printing.",
+      href: "/solutions/commerce-operations/invoice-generator",
+      icon: "file-text",
+    },
   ],
 } as const;
 
