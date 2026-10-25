@@ -206,13 +206,19 @@ export const solutionTools = {
       href: "/solutions/commerce-operations/profit-margin-calculator",
       icon: "calculator",
     },
-
     {
       title: "Barcode Generator",
       description:
         "Generate customizable product barcodes and download them as PNG or SVG files.",
       href: "/solutions/commerce-operations/barcode-generator",
       icon: "barcode",
+    },
+    {
+      title: "Custom QR Code Generator",
+      description:
+        "Create branded QR codes for product pages, promotions, websites, and text. Download PNG or SVG.",
+      href: "/solutions/commerce-operations/qr-code-generator",
+      icon: "qr-code",
     },
   ],
 } as const;
