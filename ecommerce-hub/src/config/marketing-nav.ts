@@ -227,6 +227,13 @@ export const solutionTools = {
       href: "/solutions/commerce-operations/invoice-generator",
       icon: "file-text",
     },
+    {
+      title: "Shipping Label Maker",
+      description:
+        "Create printable shipping labels with sender and recipient details, package information, and PDF export.",
+      href: "/solutions/commerce-operations/shipping-label-maker",
+      icon: "shipping",
+    },
   ],
 } as const;
 

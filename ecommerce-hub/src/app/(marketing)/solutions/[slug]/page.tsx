@@ -31,7 +31,7 @@ export default function SolutionDetailPage({ params }: { params: { slug: string 
 
   return (
     <section className="py-20">
-      <Container className="max-w-3xl">
+      <Container className="max-w-screen-2xl">
         <div className="text-center">
           <span className="mx-auto flex h-14 w-14 items-center justify-center rounded-xl bg-blue-50 text-blue-600">
             <Icon className="h-7 w-7" />
@@ -74,7 +74,7 @@ export default function SolutionDetailPage({ params }: { params: { slug: string 
               </p>
             </div>
 
-            <div className="mt-6 grid gap-5 sm:grid-cols-2">
+            <div className="mt-6 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4">
               {tools.map((tool) => (
                 <Link
                   key={tool.href}
