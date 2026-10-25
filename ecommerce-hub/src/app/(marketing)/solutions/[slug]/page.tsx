@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { ArrowRight, Calculator } from "lucide-react";
+import { ArrowRight, Barcode, Calculator } from "lucide-react";
 import Link from "next/link";
 import {
   Container,
