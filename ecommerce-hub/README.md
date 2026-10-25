@@ -33,7 +33,7 @@ npm run typecheck    # tsc --noEmit
 npm run lint         # next lint (optional)
 ```
 
-Key routes to try: `/` (marketing home), `/product`, `/pricing`, `/blog`, `/login`, `/signup`, and `/dashboard` (the product). The Product mega-menu → **Hub** links straight into `/dashboard`.
+Key routes to try: `/` (marketing home), `/product`, `/pricing`, `/blog`, `/solutions/**/*` (public calculator), `/login`, `/signup`, and `/dashboard` (the product). The Product mega-menu → **Hub** links straight into `/dashboard`.
 
 No environment variables are required to run on dummy data. Copy `.env.example` to `.env.local` to customize the data source.
 
@@ -131,3 +131,12 @@ Desktop-first, with laptop/tablet/mobile support. The marketing header collapses
 ## SEO
 
 Marketing pages set per-page `title`/`description` and Open Graph metadata, with a global template and `metadataBase` in the root layout. Blog and solution pages generate static params for SEO-friendly URLs.
+
+
+## Public Profit Margin Calculator
+
+- Route: `/solutions/profit-margin-calculator` (inside the public marketing route group).
+- Feature component: `src/features/solutions/profit-margin-calculator/components/profit-margin-calculator.tsx`.
+- Route metadata/page: `src/app/(marketing)/solutions/profit-margin-calculator/page.tsx`.
+- Uses existing shared UI components (`Button`, `Input`, `Card`) and existing Tailwind design tokens.
+- Client-side only; no backend endpoint, database migration, or additional dependency is required. Currency selection formats values but does not exchange currencies.

@@ -140,7 +140,7 @@ export interface HeaderLink {
 
 export const headerLinks: HeaderLink[] = [
   { label: "Solutions", href: "/solutions", megaMenu: "solutions" },
-  { label: "Product", href: "/product", megaMenu: "product" },
+  // { label: "Product", href: "/product", megaMenu: "product" },
   { label: "Pricing", href: "/pricing" },
   { label: "Blog", href: "/blog" },
   { label: "About", href: "/about" },
@@ -196,6 +196,18 @@ export const footerColumns: FooterColumn[] = [
     ],
   },
 ];
+
+export const solutionTools = {
+  "commerce-operations": [
+    {
+      title: "Profit Margin Calculator",
+      description:
+        "Calculate product profit, profit margins, and markup to make informed pricing decisions.",
+      href: "/solutions/commerce-operations/profit-margin-calculator",
+      icon: "calculator",
+    },
+  ],
+} as const;
 
 /** Small icon set reused by home-page channel/logistics strips. */
 export const marketingIcons = { Warehouse, Truck, Globe };
