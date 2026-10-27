@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Providers } from "@/app/providers";
+import { GoogleTagManager } from '@next/third-parties/google'
+
 
 const siteUrl = "https://smartifycommerce.com";
 
@@ -38,9 +40,22 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        {process.env.NEXT_PUBLIC_GTM_ID && (
+          <>
+            <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+            <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="" />
+            <link rel="dns-prefetch" href="https://www.google-analytics.com" />
+            <link rel="preconnect" href="https://www.google-analytics.com" crossOrigin="" />
+          </>
+        )}
+      </head>
       <body className="font-sans antialiased">
         <Providers>{children}</Providers>
       </body>
+      <GoogleTagManager
+        gtmId={process.env.NEXT_PUBLIC_GTM_ID!}
+      />
     </html>
   );
 }

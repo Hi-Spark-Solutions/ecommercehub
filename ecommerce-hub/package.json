@@ -10,6 +10,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@next/third-parties": "^16.4.3",
     "clsx": "^2.1.1",
     "jsbarcode": "^3.12.3",
     "lucide-react": "^0.454.0",
