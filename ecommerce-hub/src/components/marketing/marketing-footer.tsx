@@ -1,5 +1,11 @@
 import Link from "next/link";
-import { Github, Linkedin, Twitter } from "lucide-react";
+import {
+  FaXTwitter,
+  FaYoutube,
+  FaFacebookF,
+  FaInstagram,
+  FaLinkedinIn,
+} from "react-icons/fa6";
 import { Logo } from "@/components/marketing/logo";
 import { footerColumns } from "@/config/marketing-nav";
 
@@ -15,11 +21,40 @@ export function MarketingFooter() {
               your operations from one place.
             </p>
             <div className="mt-6 flex items-center gap-3">
-              {[Twitter, Linkedin, Github].map((Icon, i) => (
+              {[
+                {
+                  Icon: FaYoutube,
+                  href: "https://youtube.com/@smartifycommerce",
+                  label: "YouTube",
+                },
+                {
+                  Icon: FaFacebookF,
+                  href: "https://facebook.com/smartifycommerce",
+                  label: "Facebook",
+                },
+                {
+                  Icon: FaInstagram,
+                  href: "https://instagram.com/smartifycommerce",
+                  label: "Instagram",
+                },
+                {
+                  Icon: FaLinkedinIn,
+                  href: "https://linkedin.com/company/smartifycommerce",
+                  label: "LinkedIn",
+                },
+                {
+                  Icon: FaXTwitter,
+                  href: "https://x.com/smartifycommerc",
+                  label: "X (Twitter)",
+                },
+              ].map(({ Icon, href, label }) => (
                 <a
-                  key={i}
-                  href="#"
-                  aria-label="Social link"
+                  key={label}
+                  href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={label}
+                  title={label}
                   className="flex h-9 w-9 items-center justify-center rounded-lg border border-slate-800 text-slate-400 transition-colors hover:border-slate-600 hover:text-white"
                 >
                   <Icon className="h-4 w-4" />

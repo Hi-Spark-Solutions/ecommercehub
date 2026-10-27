@@ -1,5 +1,5 @@
+import Image from "next/image";
 import Link from "next/link";
-import { Boxes } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 /**
@@ -17,9 +17,14 @@ export function Logo({
 }) {
   return (
     <Link href={href} className={cn("inline-flex items-center gap-2.5", className)}>
-      <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-blue-600 text-white">
-        <Boxes className="h-[18px] w-[18px]" />
-      </span>
+      <Image
+        src="/logo.png"
+        alt="Smartify Commerce"
+        width={200}
+        height={50}
+        priority
+        className="h-10 w-auto object-contain"
+      />
       <span
         className={cn(
           "text-[17px] font-bold tracking-tight",
