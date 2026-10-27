@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import { solutionsMenu, solutionTools } from "@/config/marketing-nav";
 
-const SITE_URL = "https://yourdomain.com";
+const SITE_URL = "https://smartifycommerce.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes = [
