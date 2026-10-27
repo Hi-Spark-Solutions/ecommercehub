@@ -140,3 +140,4 @@ Marketing pages set per-page `title`/`description` and Open Graph metadata, with
 - Route metadata/page: `src/app/(marketing)/solutions/profit-margin-calculator/page.tsx`.
 - Uses existing shared UI components (`Button`, `Input`, `Card`) and existing Tailwind design tokens.
 - Client-side only; no backend endpoint, database migration, or additional dependency is required. Currency selection formats values but does not exchange currencies.
+# to trigger build
