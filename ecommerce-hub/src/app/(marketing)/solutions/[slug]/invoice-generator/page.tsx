@@ -3,7 +3,7 @@ import { Container, Eyebrow } from "@/components/marketing/primitives";
 import InvoiceGenerator from "@/features/tools/invoice-generator/components/invoice-generator";
 
 export const metadata: Metadata = {
-  title: "Free Invoice Generator | Ecommerce Hub",
+  title: "Free Invoice Generator | Smartify Commerce",
   description:
     "Create professional invoices online with editable line items, tax, discounts, totals, and PDF printing.",
 };

@@ -49,7 +49,7 @@ export function MarketingFooter() {
 
         <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-slate-800 pt-8 sm:flex-row">
           <p className="text-sm text-slate-500">
-            © {2026} Ecommerce Hub. All rights reserved.
+            © {2026} Smartify Commerce. All rights reserved.
           </p>
           <p className="text-sm text-slate-500">
             Free during early access — no credit card required.

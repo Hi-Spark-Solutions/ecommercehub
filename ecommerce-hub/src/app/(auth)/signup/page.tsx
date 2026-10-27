@@ -3,7 +3,7 @@ import { AuthForm } from "@/components/marketing/auth-form";
 
 export const metadata: Metadata = {
   title: "Get started",
-  description: "Create your Ecommerce Hub account — free during early access.",
+  description: "Create your Smartify Commerce account — free during early access.",
 };
 
 export default function SignupPage() {

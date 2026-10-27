@@ -1,4 +1,4 @@
-# Ecommerce Hub — Frontend
+# Smartify Commerce — Frontend
 
 A modern **omnichannel commerce platform** built **frontend-first** with Next.js. The project ships as **one product with two clearly separated experiences**:
 

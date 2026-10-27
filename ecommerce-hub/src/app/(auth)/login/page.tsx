@@ -3,7 +3,7 @@ import { AuthForm } from "@/components/marketing/auth-form";
 
 export const metadata: Metadata = {
   title: "Log in",
-  description: "Log in to your Ecommerce Hub workspace.",
+  description: "Log in to your Smartify Commerce workspace.",
 };
 
 export default function LoginPage() {

@@ -8,7 +8,7 @@ import { cn } from "@/lib/utils";
 export const metadata: Metadata = {
   title: "Pricing",
   description:
-    "Ecommerce Hub is free during early access. Simple, transparent pricing built to grow with your business — no billing required today.",
+    "Smartify Commerce is free during early access. Simple, transparent pricing built to grow with your business — no billing required today.",
 };
 
 export default function PricingPage() {

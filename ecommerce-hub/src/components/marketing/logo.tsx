@@ -26,7 +26,7 @@ export function Logo({
           variant === "light" ? "text-white" : "text-slate-900"
         )}
       >
-        Ecommerce Hub
+        Smartify Commerce
       </span>
     </Link>
   );

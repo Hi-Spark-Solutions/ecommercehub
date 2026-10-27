@@ -33,7 +33,7 @@ export const blogCategories = [
 ] as const;
 
 const teamAuthor: BlogAuthor = {
-  name: "The Ecommerce Hub Team",
+  name: "The Smartify Commerce Team",
   role: "Product & Commerce",
   initials: "EH",
 };

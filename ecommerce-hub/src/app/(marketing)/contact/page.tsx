@@ -6,14 +6,14 @@ import { ContactForm } from "@/components/marketing/contact-form";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Get in touch with the Ecommerce Hub team for business inquiries, partnerships or support.",
+    "Get in touch with the Smartify Commerce team for business inquiries, partnerships or support.",
 };
 
 const channels = [
   {
     icon: Building2,
     title: "Business inquiry",
-    text: "Interested in Ecommerce Hub for your brand or agency? We'd love to talk.",
+    text: "Interested in Smartify Commerce for your brand or agency? We'd love to talk.",
     detail: "sales@ecommercehub.example",
   },
   {

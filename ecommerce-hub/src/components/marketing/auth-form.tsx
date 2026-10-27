@@ -33,7 +33,7 @@ export function AuthForm({ mode }: { mode: "login" | "signup" }) {
       <p className="mt-2 text-sm text-slate-600">
         {isSignup
           ? "Start running your commerce operations — free during early access."
-          : "Log in to your Ecommerce Hub workspace."}
+          : "Log in to your Smartify Commerce workspace."}
       </p>
 
       <form onSubmit={handleSubmit} className="mt-8 space-y-4">
@@ -79,7 +79,7 @@ export function AuthForm({ mode }: { mode: "login" | "signup" }) {
           </>
         ) : (
           <>
-            New to Ecommerce Hub?{" "}
+            New to Smartify Commerce?{" "}
             <Link href="/signup" className="font-semibold text-blue-600 hover:underline">
               Create an account
             </Link>

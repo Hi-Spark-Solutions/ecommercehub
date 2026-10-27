@@ -6,12 +6,12 @@ const legal: Record<string, { title: string; intro: string }> = {
   privacy: {
     title: "Privacy Policy",
     intro:
-      "This is placeholder content for the Ecommerce Hub privacy policy. It describes, at a high level, how the platform would handle data once connected to a backend.",
+      "This is placeholder content for the Smartify Commerce privacy policy. It describes, at a high level, how the platform would handle data once connected to a backend.",
   },
   terms: {
     title: "Terms of Service",
     intro:
-      "This is placeholder content for the Ecommerce Hub terms of service. Full legal terms will be published before general availability.",
+      "This is placeholder content for the Smartify Commerce terms of service. Full legal terms will be published before general availability.",
   },
 };
 
@@ -37,7 +37,7 @@ export default function LegalPage({ params }: { params: { slug: string } }) {
         <div className="mt-8 space-y-4 leading-relaxed text-slate-700">
           <p>{doc.intro}</p>
           <p>
-            Ecommerce Hub is currently a frontend-only early-access product. No production data is
+            Smartify Commerce is currently a frontend-only early-access product. No production data is
             collected or processed. This document is a placeholder and does not constitute legal
             advice or a binding agreement.
           </p>

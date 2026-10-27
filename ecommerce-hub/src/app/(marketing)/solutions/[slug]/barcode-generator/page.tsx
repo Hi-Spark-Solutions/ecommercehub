@@ -3,7 +3,7 @@ import { Container, Eyebrow } from "@/components/marketing/primitives";
 import BarcodeGenerator from "@/features/tools/barcode-generator/components/barcode-generator";
 
 export const metadata: Metadata = {
-  title: "Free Barcode Generator | Ecommerce Hub",
+  title: "Free Barcode Generator | Smartify Commerce",
   description:
     "Generate product barcodes online. Customize barcode formats and colors, preview instantly, and download PNG or SVG files.",
 };

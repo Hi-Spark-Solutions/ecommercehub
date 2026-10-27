@@ -7,13 +7,13 @@ import { capabilities } from "@/data/marketing/site";
 export const metadata: Metadata = {
   title: "Product",
   description:
-    "Ecommerce Hub is the commerce operating system for modern brands — unified product, order, inventory, customer, integration, analytics and automation management.",
+    "Smartify Commerce is the commerce operating system for modern brands — unified product, order, inventory, customer, integration, analytics and automation management.",
 };
 
 const sections = [
   {
     title: "Unified Commerce",
-    text: "Bring every channel into one workspace. Ecommerce Hub is the operations layer that connects your storefronts, marketplaces and logistics so your team works from a single source of truth.",
+    text: "Bring every channel into one workspace. Smartify Commerce is the operations layer that connects your storefronts, marketplaces and logistics so your team works from a single source of truth.",
   },
   {
     title: "Product Management",

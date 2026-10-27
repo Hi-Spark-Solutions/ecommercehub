@@ -5,7 +5,7 @@ import { Container, Eyebrow, SectionHeading, LinkButton } from "@/components/mar
 export const metadata: Metadata = {
   title: "About",
   description:
-    "Ecommerce Hub is a technology platform helping brands simplify omnichannel commerce — our mission, vision and long-term view of global commerce.",
+    "Smartify Commerce is a technology platform helping brands simplify omnichannel commerce — our mission, vision and long-term view of global commerce.",
 };
 
 const values = [
@@ -21,7 +21,7 @@ const values = [
   },
   {
     icon: Sparkles,
-    title: "Why Ecommerce Hub",
+    title: "Why Smartify Commerce",
     text: "Brands are forced to stitch together disconnected tools as they scale. We believe the operations layer should be unified, modular and built to extend.",
   },
   {
@@ -42,7 +42,7 @@ export default function AboutPage() {
               Building the operating system for global commerce
             </h1>
             <p className="mt-5 text-lg leading-relaxed text-slate-300">
-              Ecommerce Hub is a technology platform helping brands simplify omnichannel commerce.
+              Smartify Commerce is a technology platform helping brands simplify omnichannel commerce.
               We bring the fragmented tools of modern selling into one coordinated system.
             </p>
           </div>

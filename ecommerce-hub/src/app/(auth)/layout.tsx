@@ -15,7 +15,7 @@ export default function AuthLayout({ children }: { children: React.ReactNode }) 
           <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-blue-600 text-white">
             <Boxes className="h-[18px] w-[18px]" />
           </span>
-          <span className="text-[17px] font-bold tracking-tight">Ecommerce Hub</span>
+          <span className="text-[17px] font-bold tracking-tight">Smartify Commerce</span>
         </Link>
 
         <div className="relative max-w-sm">
@@ -39,7 +39,7 @@ export default function AuthLayout({ children }: { children: React.ReactNode }) 
         </div>
 
         <p className="relative text-xs text-slate-500">
-          © 2026 Ecommerce Hub. All rights reserved.
+          © 2026 Smartify Commerce. All rights reserved.
         </p>
       </div>
 

@@ -7,7 +7,7 @@ import { solutionsMenu } from "@/config/marketing-nav";
 export const metadata: Metadata = {
   title: "Solutions",
   description:
-    "Explore how Ecommerce Hub supports commerce operations, marketplace and inventory management, analytics, automation and more.",
+    "Explore how Smartify Commerce supports commerce operations, marketplace and inventory management, analytics, automation and more.",
 };
 
 export default function SolutionsPage() {
@@ -17,7 +17,7 @@ export default function SolutionsPage() {
         <SectionHeading
           eyebrow="Solutions"
           title="Built for every part of commerce operations"
-          description="A modular platform that grows with your business. Explore where Ecommerce Hub fits today — and where it's headed."
+          description="A modular platform that grows with your business. Explore where Smartify Commerce fits today — and where it's headed."
         />
         <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {solutionsMenu.map((s) => {

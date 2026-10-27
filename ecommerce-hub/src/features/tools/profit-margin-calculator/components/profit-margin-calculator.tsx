@@ -107,6 +107,6 @@ export function ProfitMarginCalculator() {
     </div>
     <div className="mt-6 grid gap-5 md:grid-cols-2"><Card className="border-slate-200 bg-white shadow-sm"><CardContent><h2 className="font-semibold text-slate-900">Profit margin vs. markup</h2><p className="mt-2 text-sm leading-6 text-slate-600">Profit margin is profit divided by selling price. Markup is gross profit divided by product cost. These are different percentages.</p><div className="mt-3 rounded-lg bg-slate-50 p-3 font-mono text-xs leading-6 text-slate-700">Net margin = Net profit ÷ Selling price × 100<br />Markup = Gross profit ÷ Product cost × 100</div></CardContent></Card>
       <Card className="border-slate-200 bg-white shadow-sm"><CardContent><h2 className="font-semibold text-slate-900">What this estimate includes</h2><p className="mt-2 text-sm leading-6 text-slate-600">Only costs entered here are included. Add taxes, payment fees, returns, overhead, or marketplace commissions under Other costs when relevant. This estimate is not accounting or tax advice.</p></CardContent></Card></div>
-    <p className="mt-8 text-center text-xs text-slate-500">Ecommerce Hub · Free Profit Margin Calculator</p>
+    <p className="mt-8 text-center text-xs text-slate-500">Smartify Commerce · Free Profit Margin Calculator</p>
   </div>;
 }

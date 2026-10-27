@@ -3,7 +3,7 @@ import { Container, Eyebrow } from "@/components/marketing/primitives";
 import ShippingLabelMaker from "@/features/tools/shipping-label-maker/components/shipping-label-maker";
 
 export const metadata: Metadata = {
-  title: "Free Shipping Label Maker | Ecommerce Hub",
+  title: "Free Shipping Label Maker | Smartify Commerce",
   description:
     "Create printable shipping labels with sender and recipient addresses, order references, package weight, and PDF printing.",
 };

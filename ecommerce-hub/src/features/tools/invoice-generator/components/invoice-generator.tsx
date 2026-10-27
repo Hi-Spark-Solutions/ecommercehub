@@ -364,7 +364,7 @@ export default function InvoiceGenerator() {
           )}
 
           <p className="mt-10 text-center text-xs text-slate-400">
-            Generated with Ecommerce Hub
+            Generated with Smartify Commerce
           </p>
         </section>
       </div>

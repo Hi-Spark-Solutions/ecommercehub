@@ -6,7 +6,7 @@ import { blogPosts } from "@/data/marketing/blog";
 export const metadata: Metadata = {
   title: "Blog",
   description:
-    "Insights on omnichannel commerce, operations, product and growth from the Ecommerce Hub team.",
+    "Insights on omnichannel commerce, operations, product and growth from the Smartify Commerce team.",
 };
 
 export default function BlogPage() {

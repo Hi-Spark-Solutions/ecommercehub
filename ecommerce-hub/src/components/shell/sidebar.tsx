@@ -19,7 +19,7 @@ export function Sidebar({ onNavigate }: { onNavigate?: () => void }) {
           <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-sidebar-accent text-white">
             <ShoppingBag className="h-4 w-4" />
           </span>
-          <span className="text-[15px] font-semibold tracking-tight">Ecommerce Hub</span>
+          <span className="text-[15px] font-semibold tracking-tight">Smartify Commerce</span>
         </Link>
         {onNavigate && (
           <button onClick={onNavigate} className="rounded-md p-1 text-sidebar-muted hover:text-white lg:hidden" aria-label="Close menu">

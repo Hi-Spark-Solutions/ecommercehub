@@ -129,7 +129,7 @@ export default function HomePage() {
                 One operating system for commerce
               </h2>
               <p className="mt-4 text-lg leading-relaxed text-slate-300">
-                Ecommerce Hub centralizes the operations layer of your business. Every product,
+                Smartify Commerce centralizes the operations layer of your business. Every product,
                 order, unit of inventory and customer lives in one workspace — and every channel
                 reads from that shared foundation.
               </p>
@@ -208,12 +208,12 @@ export default function HomePage() {
           <SectionHeading
             eyebrow="Omnichannel workflow"
             title="Your commerce, connected end to end"
-            description="Ecommerce Hub sits at the center, coordinating every step from store to analytics."
+            description="Smartify Commerce sits at the center, coordinating every step from store to analytics."
           />
           <div className="mt-12 flex flex-col items-stretch gap-3 lg:flex-row lg:items-center lg:justify-center">
             {omnichannelFlow.map((step, i) => {
               const Icon = step.icon;
-              const isHub = step.label === "Ecommerce Hub";
+              const isHub = step.label === "Smartify Commerce";
               return (
                 <div key={step.label} className="flex items-center gap-3 lg:flex-col">
                   <div
@@ -306,7 +306,7 @@ export default function HomePage() {
           <SectionHeading
             eyebrow="Use cases"
             title="Made for how modern brands sell"
-            description="From first channel to full omnichannel — Ecommerce Hub fits the way you operate."
+            description="From first channel to full omnichannel — Smartify Commerce fits the way you operate."
           />
           <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {useCases.map((u) => {

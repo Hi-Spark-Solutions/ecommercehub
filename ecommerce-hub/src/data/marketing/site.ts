@@ -18,10 +18,10 @@ import {
 
 /** Brand-level positioning reused across marketing pages. */
 export const brand = {
-  name: "Ecommerce Hub",
+  name: "Smartify Commerce",
   tagline: "One platform to run your eCommerce business across every channel.",
   subheadline:
-    "Ecommerce Hub is the commerce operating system for modern brands — connect your storefronts, marketplaces and logistics, then manage products, orders, inventory and customers from a single workspace.",
+    "Smartify Commerce is the commerce operating system for modern brands — connect your storefronts, marketplaces and logistics, then manage products, orders, inventory and customers from a single workspace.",
 };
 
 /** Logos strip — "supported commerce channels" placeholders. */
@@ -95,7 +95,7 @@ export interface Step {
 /** Omnichannel workflow strip: Store → Hub → Marketplaces → Marketing → Shipping → Analytics */
 export const omnichannelFlow: Step[] = [
   { label: "Store", description: "Your storefront and sales channels", icon: Store },
-  { label: "Ecommerce Hub", description: "The central commerce workspace", icon: Layers },
+  { label: "Smartify Commerce", description: "The central commerce workspace", icon: Layers },
   { label: "Marketplaces", description: "List and sync everywhere", icon: Store },
   { label: "Marketing", description: "Reach customers across channels", icon: Megaphone },
   { label: "Shipping", description: "Fulfill with logistics partners", icon: Truck },
@@ -216,19 +216,19 @@ export interface Faq {
 
 export const faqs: Faq[] = [
   {
-    question: "What is Ecommerce Hub?",
+    question: "What is Smartify Commerce?",
     answer:
-      "Ecommerce Hub is an omnichannel commerce platform — a single operating system where brands manage products, orders, inventory, customers and every sales channel.",
+      "Smartify Commerce is an omnichannel commerce platform — a single operating system where brands manage products, orders, inventory, customers and every sales channel.",
   },
   {
     question: "Is it a marketplace or an online store builder?",
     answer:
-      "No. Ecommerce Hub is not a marketplace, a store builder, an ERP or an accounting system. It is the operations layer that connects and coordinates the channels you already sell on.",
+      "No. Smartify Commerce is not a marketplace, a store builder, an ERP or an accounting system. It is the operations layer that connects and coordinates the channels you already sell on.",
   },
   {
     question: "How much does it cost?",
     answer:
-      "Ecommerce Hub is free during early access. The pricing architecture is designed so future plans can be added without changing how you work today.",
+      "Smartify Commerce is free during early access. The pricing architecture is designed so future plans can be added without changing how you work today.",
   },
   {
     question: "Which channels and integrations are supported?",

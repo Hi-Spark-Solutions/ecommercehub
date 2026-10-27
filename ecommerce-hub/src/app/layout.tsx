@@ -2,16 +2,16 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { Providers } from "@/app/providers";
 
-const siteUrl = "https://ecommercehub.example";
+const siteUrl = "https://smartifycommerce.com";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Ecommerce Hub — One platform for omnichannel commerce",
-    template: "%s · Ecommerce Hub",
+    default: "Smartify Commerce — One platform for omnichannel commerce",
+    template: "%s · Smartify Commerce",
   },
   description:
-    "Ecommerce Hub is the commerce operating system for modern brands. Manage products, orders, inventory, customers and every sales channel from one place.",
+    "Smartify Commerce is the commerce operating system for modern brands. Manage products, orders, inventory, customers and every sales channel from one place.",
   keywords: [
     "omnichannel commerce",
     "ecommerce operations",
@@ -22,14 +22,14 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     url: siteUrl,
-    siteName: "Ecommerce Hub",
-    title: "Ecommerce Hub — One platform for omnichannel commerce",
+    siteName: "Smartify Commerce",
+    title: "Smartify Commerce — One platform for omnichannel commerce",
     description:
       "The commerce operating system for modern brands. Connect every channel, automate operations, and grow.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ecommerce Hub — One platform for omnichannel commerce",
+    title: "Smartify Commerce — One platform for omnichannel commerce",
     description:
       "The commerce operating system for modern brands. Connect every channel, automate operations, and grow.",
   },

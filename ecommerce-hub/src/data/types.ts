@@ -1,5 +1,5 @@
 /**
- * Central domain types for Ecommerce Hub.
+ * Central domain types for Smartify Commerce.
  *
  * These types are the contract between the data layer and the UI. They are
  * intentionally backend-agnostic: the same shapes are produced today by the

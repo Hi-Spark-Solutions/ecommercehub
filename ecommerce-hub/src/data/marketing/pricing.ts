@@ -69,7 +69,7 @@ export const pricingFaqs: { question: string; answer: string }[] = [
   {
     question: "Is it really free?",
     answer:
-      "Yes — Ecommerce Hub is completely free during early access. There is no payment required to use the core platform.",
+      "Yes — Smartify Commerce is completely free during early access. There is no payment required to use the core platform.",
   },
   {
     question: "Will I be charged later?",

@@ -3,7 +3,7 @@ import { Container, Eyebrow } from "@/components/marketing/primitives";
 import QRCodeGenerator from "@/features/tools/qr-code-generator/components/qr-code-generator";
 
 export const metadata: Metadata = {
-  title: "Free QR Code Generator | Ecommerce Hub",
+  title: "Free QR Code Generator | Smartify Commerce",
   description:
     "Create custom QR codes for URLs and text. Customize colors, size, and error correction, then download PNG or SVG.",
 };
