@@ -234,6 +234,13 @@ export const solutionTools = {
       href: "/solutions/commerce-operations/shipping-label-maker",
       icon: "shipping",
     },
+    {
+      title: "Bill of Lading Generator",
+      description:
+        "Create printable bills of lading with shipment references, freight details, package counts, and signature fields.",
+      href: "/solutions/commerce-operations/bill-of-lading-generator",
+      icon: "file-text",
+    },
   ],
 } as const;
 
