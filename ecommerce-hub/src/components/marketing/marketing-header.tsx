@@ -97,7 +97,8 @@ export function MarketingHeader() {
         </nav>
 
         {/* Right actions */}
-        <div className="hidden items-center gap-2 lg:flex">
+        {/* Future ToDo */}
+        {/* <div className="hidden items-center gap-2 lg:flex">
           <Link
             href="/login"
             className="rounded-md px-3 py-2 text-sm font-medium text-slate-700 transition-colors hover:text-slate-900"
@@ -107,7 +108,7 @@ export function MarketingHeader() {
           <LinkButton href="/signup" size="md">
             Get Started
           </LinkButton>
-        </div>
+        </div> */}
 
         {/* Mobile toggle */}
         <button
@@ -166,14 +167,15 @@ export function MarketingHeader() {
                 );
               })}
             </nav>
-            <div className="mt-4 flex flex-col gap-2 border-t border-slate-200 pt-4">
+            {/* Future ToDo */}
+            {/* <div className="mt-4 flex flex-col gap-2 border-t border-slate-200 pt-4">
               <LinkButton href="/login" variant="outline" onClick={() => setMobileOpen(false)}>
                 Login
               </LinkButton>
               <LinkButton href="/signup" onClick={() => setMobileOpen(false)}>
                 Get Started
               </LinkButton>
-            </div>
+            </div> */}
           </div>
         </div>
       )}

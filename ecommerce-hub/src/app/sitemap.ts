@@ -30,7 +30,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return routes.map((route) => ({
     url: `${SITE_URL}${route}`,
-    changeFrequency: "weekly",
+    changeFrequency: "daily",
     priority: route === "" ? 1 : route.startsWith("/solutions/") ? 0.8 : 0.6,
   }));
 }

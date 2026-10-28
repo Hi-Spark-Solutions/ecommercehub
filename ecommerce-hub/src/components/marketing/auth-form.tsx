@@ -68,8 +68,9 @@ export function AuthForm({ mode }: { mode: "login" | "signup" }) {
           {isSignup ? "Create account" : "Log in"}
         </button>
       </form>
-
-      <p className="mt-6 text-center text-sm text-slate-600">
+      
+      {/* Future ToDo */}
+      {/* <p className="mt-6 text-center text-sm text-slate-600">
         {isSignup ? (
           <>
             Already have an account?{" "}
@@ -85,7 +86,7 @@ export function AuthForm({ mode }: { mode: "login" | "signup" }) {
             </Link>
           </>
         )}
-      </p>
+      </p> */}
 
       <p className="mt-4 text-center text-xs text-slate-400">
         Demo only — no real authentication is performed.
