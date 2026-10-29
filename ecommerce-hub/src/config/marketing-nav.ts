@@ -241,6 +241,13 @@ export const solutionTools = {
       href: "/solutions/commerce-operations/bill-of-lading-generator",
       icon: "file-text",
     },
+    {
+      title: "Purchase Order Generator",
+      description:
+        "Create professional purchase orders with company logo, supplier details, itemized costs, delivery terms, and A4 PDF printing.",
+      href: "/solutions/commerce-operations/purchase-order-generator",
+      icon: "file-text",
+    },
   ],
 } as const;
 
