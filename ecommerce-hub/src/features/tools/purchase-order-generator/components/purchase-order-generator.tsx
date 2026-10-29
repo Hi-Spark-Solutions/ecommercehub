@@ -239,9 +239,9 @@ export default function PurchaseOrderGenerator() {
 
   return (
     <>
-      <div className="purchase-order-layout mx-auto grid w-full max-w-[1440px] grid-cols-1 items-start gap-6 lg:grid-cols-[minmax(360px,0.85fr)_minmax(0,1.15fr)] xl:gap-8">
+        <div className="purchase-order-layout mx-auto grid w-full max-w-[1440px] grid-cols-1 items-start gap-4 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.1fr)] xl:gap-5">
         {/* Form: hidden when printing */}
-        <section className="no-print space-y-5 rounded-2xl border border-slate-200 bg-white p-6">
+        <section className="no-print min-w-0 space-y-5 rounded-xl border border-slate-200 bg-white p-4 sm:p-5">
           <h2 className="text-xl font-bold">Purchase order details</h2>
 
           <label className="block text-sm font-medium">
